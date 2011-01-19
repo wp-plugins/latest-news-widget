@@ -3,10 +3,10 @@ Contributors: Taylor Lovett
 Donate link: http://www.taylorlovett.com
 Tags: latest news widget, posts widget, latest posts widget, new posts widget, featured posts widget, posts in sidebar, news posts in sidebar, news widget
 Requires at least: 2.8.1
-Tested up to: 3.0.1
-Stable tag: 0.1
+Tested up to: 3.0.4
+Stable tag: 0.2
 
-A customizable latest news widget.
+A customizable latest news widget for your sidebar.
 
 == Description ==
 

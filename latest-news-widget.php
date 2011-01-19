@@ -3,7 +3,7 @@
 	Plugin Name: Latest News Widget
 	Plugin URI: http://taylorlovett.com/wordpress-plugins
 	Description: Insert a "Latest News Widget" in to your sidebar. Very customizable and easy to use! Comes packed with options: choose up to three categories to pull posts from, show the excerpt or the content, optionally show the byline and post title, optionally show "Read More" text, etc.
-	Version: 0.1
+	Version: 0.2
 	Author: Taylor Lovett
 	Author URI: http://www.taylorlovett.com
 */
@@ -36,6 +36,6 @@ if (!class_exists('TL_Latest_News_Widget_Core')) {
 			add_action('widgets_init', create_function('', 'register_widget("TL_Latest_News_Widget");'));
 		}
 	}
-}
+} 
 new TL_Latest_News_Widget_Core();
 ?>
