@@ -65,6 +65,7 @@ class TL_Latest_News_Widget extends WP_Widget {
 					the_time('F j, Y');
 					echo ' '.__('by', 'latest-news-widget').' ';
 					echo ' - ';
+					the_author_posts_link();
 					echo '</div>';
 				}
 				if(!empty($instance['show_content'])) :

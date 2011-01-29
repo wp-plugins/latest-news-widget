@@ -4,9 +4,9 @@ Donate link: http://www.taylorlovett.com
 Tags: latest news widget, posts widget, latest posts widget, new posts widget, featured posts widget, posts in sidebar, news posts in sidebar, news widget
 Requires at least: 2.8.1
 Tested up to: 3.0.4
-Stable tag: 0.2
+Stable tag: 1.0
 
-A customizable latest news widget for your sidebar.
+A customizable latest news widget.
 
 == Description ==
 
@@ -18,6 +18,7 @@ Special Features:
 *	Choose posts from up to three categories to display posts from
 *	Optionally show post titles
 *	Optionally show post bylines
+*	A dashboard widget that displays WordPress blogging tips, SEO tricks, exclusive tutorials, SEO strategies, and more!
 *	Show either the content, the excerpt, or the content with a limited number of characters
 *	Limit the number of posts shown. Offset the posts that are shown
 *	__Widget includes a style manager!__
@@ -64,6 +65,15 @@ http://www.taylorlovett.com/wordpress-plugins
 Visit http://www.taylorlovett.com/wordpress-plugins for screenshots.
 
 == Changelog ==
+
+= 1.0 =
+*	latest-news-widget.php - Dashboard widget added
+*	css/latest-news-widget-dashboard.css - Added
+*	widget/class.dashboard.php - Added
+*	class.utils.php - New methods added
+
+= 0.2 =
+* Small bug fixes
 
 = 0.1 =
 *	Plugin Release
