@@ -4,7 +4,7 @@ Donate link: http://www.taylorlovett.com
 Tags: latest news widget, posts widget, latest posts widget, new posts widget, featured posts widget, posts in sidebar, news posts in sidebar, news widget
 Requires at least: 2.8.1
 Tested up to: 3.0.4
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 A customizable latest news widget.
 
@@ -65,6 +65,9 @@ http://www.taylorlovett.com/wordpress-plugins
 Visit http://www.taylorlovett.com/wordpress-plugins for screenshots.
 
 == Changelog ==
+
+= 1.0.1 =
+*	latest-news-widget.php - Plugin admin links fixed
 
 = 1.0 =
 *	latest-news-widget.php - Dashboard widget added

@@ -3,7 +3,7 @@
 	Plugin Name: Latest News Widget
 	Plugin URI: http://taylorlovett.com/wordpress-plugins
 	Description: Insert a "Latest News Widget" in to your sidebar. Very customizable and easy to use! Comes packed with options: choose up to three categories to pull posts from, show the excerpt or the content, optionally show the byline and post title, optionally show "Read More" text, etc.
-	Version: 1.0
+	Version: 1.0.1
 	Author: Taylor Lovett
 	Author URI: http://www.taylorlovett.com
 */
@@ -52,8 +52,8 @@ if (!class_exists('TL_Latest_News_Widget_Core')) {
 		
 		function redo_plugin_admin_links($action_links, $plugin_file) {
 			static $link_added = false;
-			if (!$link_added && basename($plugin_file) == 'custom-contact-forms.php') {
-				$new_link = '<a style="font-weight:bold;" href="admin.php?page=custom-contact-forms" title="' . __('Manage Custom Contact Forms', 'custom-contact-forms') . '">' . __('Settings', 'custom-contact-forms') . '</a>';
+			if (!$link_added && basename($plugin_file) == 'latest-news-widget.php') {
+				$new_link = '<a style="font-weight:bold;" href="admin.php?page=latest-news-widget" title="' . __('Manage Latest News Widget', 'latest-news-widget') . '">' . __('Settings', 'latest-news-widget') . '</a>';
 				array_unshift($action_links, $new_link);
 				$link_added = true;
 			}
